@@ -4,11 +4,11 @@
 
 local keymap = vim.keymap
 
-require("lspsaga").setup({
-  ui = {
-    border = "rounded",
-  },
-})
-
-keymap.set("n", "gd", "<cmd>Lspsaga goto_definition<cr>")
-keymap.set("n", "<leader>k", "<cmd>Lspsaga hover_doc<cr>")
+-- require("lspsaga").setup({
+--   ui = {
+--     border = "rounded",
+--   },
+-- })
+--
+-- keymap.set("n", "gd", "<cmd>Lspsaga goto_definition<cr>")
+-- keymap.set("n", "<leader>k", "<cmd>Lspsaga hover_doc<cr>")
