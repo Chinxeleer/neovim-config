@@ -75,10 +75,4 @@ return {
       -- or just leave it empty :)
     },
   },
-  {
-    "nvimdev/lspsaga.nvim",
-    config = function()
-      require("lspsaga").setup({})
-    end,
-  },
 }
