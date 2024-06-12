@@ -51,6 +51,16 @@ return {
     end,
   },
   {
+    "neovim/nvim-lspconfig",
+    init_options = {
+      userLanguages = {
+        eelixir = "html-eex",
+        eruby = "erb",
+        rust = "html",
+      },
+    },
+  },
+  {
     "rayliwell/nvim-ts-autotag",
     config = function()
       require("nvim-ts-autotag").setup()
