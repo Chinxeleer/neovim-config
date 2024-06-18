@@ -30,6 +30,15 @@ return {
       -- your config goes here
       -- or just leave it empty :)
     },
+  },{
+    "neovim/nvim-lspconfig",
+    init_options = {
+      userLanguages = {
+        eelixir = "html-eex",
+        eruby = "erb",
+        rust = "html",
+      },
+    },
   },
   {
     "barrett-ruth/live-server.nvim",
